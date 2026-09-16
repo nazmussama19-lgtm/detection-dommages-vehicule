@@ -1,0 +1,5 @@
+# Versions CPU de PyTorch : plus légères, et Streamlit Community Cloud n'a pas de GPU
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1+cpu
+torchvision==0.20.1+cpu
+streamlit==1.64.0
