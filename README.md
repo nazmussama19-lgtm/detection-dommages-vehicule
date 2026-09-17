@@ -2,14 +2,12 @@
 
 À partir de la photo d'une voiture, repérer si l'avant ou l'arrière est endommagé et qualifier le dommage (pièce cassée, carrosserie enfoncée ou aucun dommage). Cas d'usage visé : un premier tri automatique des photos envoyées lors d'une déclaration de sinistre.
 
-**[→ Tester l'application](https://LIEN-A-COMPLETER.streamlit.app)**
+**[→ Tester l'application](https://detection-dommages-vehicule.streamlit.app/)**
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
 ![Optuna](https://img.shields.io/badge/Optuna-1D4E47)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
-
-![Aperçu de l'application](assets/apercu.jpg)
 
 ---
 
@@ -78,7 +76,6 @@ Tous entraînés 10 époques avec Adam, sur le même découpage :
 ├── app.py                              interface Streamlit
 ├── prediction.py                       architecture du modèle, chargement et prédiction
 ├── modele/classifieur_resnet50.pth     poids du modèle entraîné
-├── assets/apercu.jpg
 ├── .streamlit/config.toml              thème
 └── requirements.txt
 ```
